@@ -66,7 +66,7 @@ shutil.copytree(src_folder, dest_folder)
 
 
 #MAKE ARCHIVE
-print ("MAKING IT AN ARCHIVE ON YOUT DESKTOP")
+print ("MAKING IT AN ARCHIVE ON YOUR DESKTOP")
 time.sleep(3)
 desktop_folder = os.path.join(os.path.expanduser("~"), "Desktop")
 folder_path = os.path.join(desktop_folder, "VALORANT_LOGS")
